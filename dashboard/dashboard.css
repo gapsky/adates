@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.adates-card {
+    border-radius: 24px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+}
+.adates-card img {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.sidebar-links {
+    padding: 16px;
+    position: fixed;
+    width: fit-content;
+    height: 100%;
+    background-color: #FBB03B;
+}
+
+.sidebar-logo {
+    margin-top: 32px;
+    font-size: 32px;
+    color: #fff;
+}
+@media screen and (max-width: 768px) {
+    .sidebar-logo {
+        font-size: 16px;
+    }
+}
+
+.dashboard-main {
+    margin-left: 64px;
+}
+@media screen and (max-width: 768px) {
+    .dashboard-main {
+        margin-left: 48px;
+    }
+}
+/* UNDER CONSTRUCTION */
+.dashboard-user {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 16px;
+    gap: 8px;
+}
+/* UNDER CONSTRUCTION */
+
+/* TES */
+.test {
+    padding: 0 16px;
+}
+
+.dashboard-search {
+    display: flex;
+    align-items: center;
+}
+
+.search-main {
+    display: flex;
+    background-color: #FBB03B;
+    border: 2px solid #FBB03B;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    margin-bottom: 16px;
+}
+
+.form-label {
+    margin-bottom: 4px;
+}
+
+.form-control {
+    padding: 8px 16px;
+    outline: none;
+    border-radius: 14px;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.upload-btn {
+    background-color: #198AA3;
+    color: #fff;
+}
+
+.submit-btn {
+    padding: 8px 8px;
+    background-color: #FBB03B;
+    border-radius: 14px;
+    border: none;
+    color: #fff;
+}
+
+.buat-tes {
+    margin-left: 16px;
+    padding: 8px 16px;
+    border-radius: 14px;
+    background-color: #FA7E5C;
+    color: #fff;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+}
+
+.draft-slider {
+    display: grid;
+    grid-template-columns: repeat(6, max(320px));
+    gap: 32px;
+    padding: 16px 0;
+}
+
+.test-detail {
+    padding: 16px;
+}
+
+.test-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.test-info {
+    display: flex;
+    padding: 16px 0;
+    justify-content: space-between;
+}
+
+.test-cost {
+    font-weight: bold;
+}
+/* TEST */
+
+/* CHAT */
+.chat {
+    display: flex;
+}
+
+.chat-sidebar {
+    padding: 0 32px;
+    background-color: #F0F0F0;
+}
+
+.chat-sidebar-item {
+    margin: 16px 0;
+    padding: 16px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.chat-sidebar-item .active {
+    padding: 8px;
+    background-color: #198AA3;
+    border-radius: 16px;
+    color: #fff;
+}
+
+.chat-main {
+    padding: 0 32px;
+}
+
+.hapus-semua {
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    border-radius: 14px;
+    background-color: #FA7E5C;
+    color: #fff;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+}
+
+.kotak-masuk-item {
+    margin: 16px 0;
+    padding: 16px;
+    width: 100%;
+}
+
+.kotak-masuk-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.kotak-masuk-date {
+    font-size: 12px;
+    color: gray;
+}
+
+.kotak-masuk-message {
+    padding-top: 16px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.kotak-masuk-btn {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 16px;
+    gap: 8px;
+}
+
+.notifikasi-item {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin: 16px 0;
+    padding: 16px;
+    width: fit-content;
+}
+
+.notifikasi-message {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.notifikasi-date {
+    font-size: 12px;
+    color: gray;
+}
+
+.feedback-item {
+    margin: 16px 0;
+    padding: 16px;
+    width: 100%;
+}
+
+.feedback-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.feedback-date {
+    font-size: 12px;
+    color: gray;
+}
+
+.feedback-message {
+    padding-top: 16px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.feedback-btn {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    gap: 8px;
+}
+/* CHAT */
+
+/* ACTIVITY */
+.activity {
+    display: flex;
+}
+
+.activity-sidebar {
+    padding: 0 32px;
+    background-color: #F0F0F0;
+}
+
+.activity-sidebar-item {
+    margin: 16px 0;
+    padding: 16px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.activity-sidebar-item .active {
+    padding: 8px;
+    background-color: #198AA3;
+    border-radius: 16px;
+    color: #fff;
+}
+
+.activity-main {
+    padding: 0 32px;
+}
+
+.ikhtisar {
+    margin: 16px 0;
+}
+
+.ikhtisar-list {
+    padding: 16px;
+    max-width: 768px;
+}
+
+.ikhtisar-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ikhtisar-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+    padding: 16px;
+    background-color: #FA7E5C;
+    border-radius: 24px;
+    color: #fff;
+}
+
+.peserta-tes {
+    margin: 16px 0;
+}
+
+.peserta-tes-list {
+    padding: 16px;
+    max-width: 768px;
+}
+
+.peserta-tes-header {
+    display: flex;
+    justify-content: space-between;
+}
+/* ACTIVITY */
+
+/* WALLET */
+.wallet {
+    display: flex;
+}
+
+.wallet-sidebar {
+    padding: 0 32px;
+    max-width: 200px;
+    background-color: #F0F0F0;
+}
+
+.wallet-sidebar-item {
+    margin: 16px 0;
+    padding: 16px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.wallet-sidebar-item .active {
+    padding: 8px;
+    background-color: #198AA3;
+    border-radius: 16px;
+    color: #fff;
+}
+
+.wallet-main {
+    padding: 0 32px;
+}
+
+.v-id {
+    margin: 16px 0;
+}
+
+.id-pembayaran {
+
+}
+
+.pendapatan {
+    margin: 16px 0;
+}
+
+.pendapatan-list {
+    padding: 16px;
+    width: 768px;
+}
+
+.pendapatan-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pendapatan-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+    padding: 16px;
+    background-color: #FA7E5C;
+    border-radius: 24px;
+    color: #fff;
+}
+
+.riwayat-transaksi {
+    margin: 16px 0;
+}
+
+.riwayat-transaksi-list {
+    padding: 16px;
+    max-width: 768px;
+}
+
+.riwayat-transaksi-header {
+    display: flex;
+    justify-content: space-between;
+}
+/* WALLET */
+
+/* SETTING */
+.setting {
+    display: flex;
+}
+
+.setting-sidebar {
+    padding: 0 32px;
+    max-width: 200px;
+    background-color: #F0F0F0;
+}
+
+.setting-sidebar-item {
+    margin: 16px 0;
+    padding: 16px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.setting-sidebar-item .active {
+    padding: 8px;
+    background-color: #198AA3;
+    border-radius: 16px;
+    color: #fff;
+}
+
+.setting-main {
+    padding: 0 32px;
+}
+
+.ganti-pwd {
+    margin: 16px 0;
+}
+
+.ganti-email {
+    margin: 16px 0;
+}
+/* SETTING */

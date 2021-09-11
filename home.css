@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo {
+    width: 200px;
+}
+.adates-card {
+    border-radius: 24px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+}
+
+/* HERO */
+.adates-hero {
+    background-image: url("images/young-female-writing-notebook.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header {
+    display: flex;
+    margin-bottom: 96px;
+    padding: 32px;
+    justify-content: space-between;
+    color: #fff;
+}
+.account-btn {
+    display: flex;
+}
+.login-btn {
+    margin-right: 32px;
+    color: #FA7E5C;
+}
+.login-btn a {
+    padding: 16px 32px;
+    background-color: #fff;
+    border-radius: 32px;
+}
+.signup-btn {
+    margin-right: 32px;
+}
+.signup-btn a {
+    padding: 16px 32px;
+    background-color: #FA7E5C;
+    border-radius: 32px;
+}
+.user-logo {
+    color: #FA7E5C;
+}
+.adates-hero i {
+    padding: 16px 16px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.hero-isi h3 {
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+}
+.hero-btn {
+    margin-top: 32px;
+    color: #fff;
+    text-align: center;
+}
+.hero-btn a {
+    padding: 16px 32px;
+    font-size: 32px;
+    background-color: #FA7E5C;
+    border-radius: 32px;
+}
+/* HERO */
+
+/* ISI */
+.adates-isi {
+    display: flex;
+    padding: 32px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FBB03B;
+}
+.adates-isi h3 {
+    margin-bottom: 16px;
+    color: #fff;
+    font-size: 48px;
+}
+.adates-isi p {
+    color: #fff;
+}
+.adates-user {
+    width: 600px;
+}
+/* ISI */
+
+/* PROGRAM */
+.adates-program {
+    display: flex;
+    padding: 32px;
+    align-items: center;
+    justify-content: space-around;
+    color: #147587;
+}
+.adates-program h3 {
+    text-align: center;
+    font-size: 48px;
+}
+.adates-program h6 {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 16px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(240px, 1fr));
+    grid-gap: 32px;
+}
+.program {
+    padding: 32px;
+}
+/* PROGRAM */
+
+/* TESTIMONI */
+.adates-testimoni {
+    margin: 48px 0;
+    color: #147587;
+    text-align: center;
+}
+.testimoni {
+    padding: 32px;
+    background-color: #FBB03B;
+}
+/* TESTIMONI */
+
+/* FOOTER */
+footer {
+    padding: 48px;
+    text-align: center;
+    background-color: #FBB03B;
+}
+.adates-contact {
+    margin: 48px 0;
+    color: #fff;
+}
+.adates-contact i {
+    margin: 0 24px;
+    padding: 16px;
+    font-size: 24px;
+    background-color: #147587;
+    border-radius: 100%;
+}
+footer h6 {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+/* FOOTER */

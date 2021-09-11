@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Adates | Selalu Di Depan</title>
+        <link rel="stylesheet" href="signup.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <form action="post">
+            <div class="form-group">
+                <label
+                    class="form-label"
+                    for="nama">
+                    Nama Lengkap
+                </label>
+                <input
+                    class="form-control"
+                    type="text"
+                    id="nama"
+                    name="nama"
+                    placeholder="Adi Budiman"
+                    autocomplete="off"
+                />
+            </div>
+            <div class="form-group">
+                <label
+                    class="form-label"
+                    for="kelamin"
+                >
+                    Jenis Kelamin
+                </label>
+                <select class="form-control" id="kelamin" name="kelamin">
+                    <option value="laki-laki">Laki-Laki</option>
+                    <option value="perempuan">Perempuan</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label
+                    class="form-label"
+                    for="pekerjaan"
+                >
+                    Pekerjaan
+                </label>
+                <input
+                    class="form-control"
+                    type="text"
+                    id="pekerjaan"
+                    name="pekerjaan"
+                    placeholder="Mahasiswa"
+                    autocomplete="off"
+                />
+            </div>
+            <div class="form-group">
+                <label
+                    class="form-label"
+                    for="pendidikan"
+                >
+                    Pendidikan Terakhir
+                </label>
+                <select class="form-control" id="pendidikan" name="pendidikan">
+                    <option value="sma">SMA</option>
+                    <option value="smp">SMP</option>
+                    <option value="sd">SD</option>
+                    <option value="s1">S1</option>
+                    <option value="s2">S2</option>
+                    <option value="s3">S3</option>
+                    <option value="d1">D1</option>
+                    <option value="d2">D2</option>
+                    <option value="d3">D3</option>
+                    <option value="d4">D4</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label
+                    class="form-label"
+                    for="alamat"
+                >
+                    Alamat sesuai KTP
+                </label>
+                <textarea
+                    class="form-control"
+                    id="alamat"
+                    name="alamat"
+                    cols="0"
+                    rows="5"
+                ></textarea>
+            </div>
+            <div class="form-group">
+                <label
+                    class="form-label"
+                    for="email"
+                >
+                    Email
+                </label>
+                <input
+                    class="form-control"
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="adibudiman@gmail.com"
+                    autocomplete="off"
+                />
+            </div>
+            <div class="form-group">
+                <label
+                    class="form-label"
+                    for="password"
+                >
+                    Password
+                </label>
+                <input
+                    class="form-control"
+                    type="password"
+                    id="password"
+                    name="password"
+                />
+            </div>
+            <div class="form-group">
+                <label
+                    class="form-label"
+                    for="password-confirm"
+                >
+                    Konfirmasi Password
+                </label>
+                <input
+                    class="form-control"
+                    type="password"
+                    name="password-confirm"
+                />
+            </div>
+            <div class="form-group">
+                <label
+                    for="agreed-tc"
+                    style="font-size: 12px;"
+                >
+                    <input
+                        type="checkbox"
+                        id="agreed-tc"
+                        name="agreed-tc"
+                        style="margin-right: 4px;"
+                    >
+                        I read and agree to Term and Conditions
+                    </label>
+            </div>
+            <div class="form-group">
+                <button
+                    class="form-control submit-btn"
+                    type="submit"
+                    name="sign-up"
+                >Sign Up</button>
+                <label style="text-align: center; margin-top: 4px; font-size: 12px;">
+                    Tidak Mempunyai Akun? <a href="../login/" style="color: blue;">Login</a>
+                </label>
+            </div>
+        </form>
+    </body>
+</html>
